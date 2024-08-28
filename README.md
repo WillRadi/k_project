@@ -32,5 +32,5 @@ kafka-topics --create --bootstrap-server kafka:9092 replication-factor 1 --parti
 ```bash
 # Inside the kproject console
 
-bundle exec rails generate racecar:consumer upcaser_message
+bundle exec racecar {{ consumer class }}
 ```
